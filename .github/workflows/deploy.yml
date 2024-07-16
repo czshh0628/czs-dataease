@@ -33,6 +33,8 @@ jobs:
               
       - name: push images
         run: |
+          ls -l
+          ls -l target
           ls -l core
           ls -l core/core-backend
           ls -l core/core-backend/target/
