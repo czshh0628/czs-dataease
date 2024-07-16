@@ -33,7 +33,7 @@ jobs:
               
       - name: push images
         run: |
-          ls -l
+          ls -l core/core-backend/target/
 
       # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
       - name: build docker images
